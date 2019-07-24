@@ -44,12 +44,14 @@ public:
     Ball *ball;
     Dog dog;
     Dog *dog2;
+    shared_ptr<Dog> dog3;
 
     Player(string namestr) {
         name = namestr;
         ball = new Ball(11, namestr);
         dog = Dog(string("dog-struct").append(namestr));
         dog2 = new Dog(string("dog-point-").append(namestr));
+        dog3 = make_shared<Dog>("dog shared_point");
     }
 
     ~Player() {

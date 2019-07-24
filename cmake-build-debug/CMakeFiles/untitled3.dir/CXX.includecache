@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/pook.cc/CLionProjects/untitled3/main.cpp
+iostream
+-
+numeric
+/cygdrive/c/Users/pook.cc/CLionProjects/untitled3/numeric
+vector
+/cygdrive/c/Users/pook.cc/CLionProjects/untitled3/vector
+memory
+/cygdrive/c/Users/pook.cc/CLionProjects/untitled3/memory
+
